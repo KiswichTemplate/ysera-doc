@@ -1,0 +1,20 @@
+_id: env_0141984a5ecafa0e73cfdf39f8d47e3d4f342905
+color: null
+created: 1589421100216
+data:
+  contextPath: ysera
+  host: 192.168.106.32
+  port: "18899"
+  prefix: http://{{ host }}:{{port}}/{{ contextPath }}
+dataPropertyOrder:
+  "&":
+    - prefix
+    - host
+    - port
+    - contextPath
+isPrivate: false
+metaSortKey: 1589421100216
+modified: 1589421724643
+name: Base Environment
+parentId: wrk_4d31c97fbf22498696ccdb268d20d311
+type: Environment
